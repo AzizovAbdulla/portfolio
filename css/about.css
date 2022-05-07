@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 2345;
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(20px);
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-nav {
+    font-family: 'Manrope', sans-serif;
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #DEDEDE;
+}
+
+#hero {
+    background: url("../img/teamwork.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#sec-page {
+    padding-top: 150px;
+    background: rgb(21, 21, 21);
+}
+
+.sec-page p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+.sec-page h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #DEDEDE;
+}
+
+.gen-chooses {
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gen-chooses p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #858585;
+
+}
+
+.gen-chooses h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #DEDEDE;
+}
+
+.last-sec {
+    padding-top: 300px;
+}
+
+.last-sec p {
+    margin-bottom: 20px;
+}
+
+.real-last {
+    padding-top: 100px;
+}
+
+.real-last p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #858585;
+    margin-bottom: 7px;
+}
+
+.last-line {
+    width: 170px;
+    height: 2px;
+    background: #A5A5A5;
+}
+
+#office{
+    background: url("../img/office.png") no-repeat center/cover, #C4C4C4;
+    min-height: 100vh;
+
+}
+
+.office{
+    padding-top: 700px;
+
+}
+
